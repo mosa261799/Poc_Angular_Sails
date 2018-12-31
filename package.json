@@ -76,13 +76,9 @@
   },
   "scripts": {
     "preinstall": "npm install -g @angular/cli @angular/compiler-cli",
-    "start": "npm-run-all --parallel open:client dev",
-    "start:debug": "npm-run-all --parallel open:client debug",
+    "start": "npm-run-all --parallel open:client dev", 
     "open:client": "ng serve",
-    "build": "npm run build:prod",
-    "build:dev": "ng build --deploy-url=dist",
-    "build:prod": "ng build --prod --deploy-url=dist",
-    "build:aot": "ng build --aot --deploy-url=dist",
+    "build": "npm run build",
     "clean": "rimraf assets/dist",
     "dev": "sails lift",
     "debug": "node --inspect app.js"
