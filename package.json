@@ -81,7 +81,7 @@
     "build:prod": "ng build --prod --deploy-url=dist",
     "build:aot": "ng build --aot --deploy-url=dist",
     "clean": "rimraf assets/dist",
-    "preinstall": "npm install -g @angular/cli",
+    "preinstall": "npm install -g @angular/cli && npm install -g @angular-devkit/build-angular",
     "preinstall": "npm install -g @angular-devkit/build-angular",
     "dev": "sails lift",
     "debug": "node --inspect app.js"
