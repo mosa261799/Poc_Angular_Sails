@@ -1,7 +1,8 @@
 {
   "hooks": {
     "grunt": false,
-    "socket": false
+    "socket": false,
+    "session" : false
   },
   "generators": {
     "modules": {}
